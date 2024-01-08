@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fitness Studio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" class="img"/></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#class">Services</a></li>
+          <li class="link"><a href="#trainer">Trainer</a></li>
+          <li class="link"><a href="#price">Plans</a></li>
+          <li class="link"><a href="#contact" class="btn">Contact Us</a></li>
+
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Build Your Body &</h4>
+          <h1 class="section__header">Shape Yourself!</h1>
+          <p>
+            Unleash your potential and embark on a journey towards a stronger,
+            fitter, and more confident you. Sign up for 'Make Your Body Shape'
+            now and witness the incredible transformation your body is capable
+            of!
+          </p>
+          <div class="header__btn">
+            <a href="#contact" class="btn">Join Today</a>
+
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Our Story</h2>
+        <p class="section__description">
+          Led by our team of expert and motivational instructors, "The Class You
+          Will Get Here" is a high-energy, results-driven session that combines
+          a perfect blend of cardio, strength training, and functional
+          exercises.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Open Door Policy</h4>
+              <p>
+                We believe in providing unrestricted access to all individuals,
+                regardless of their fitness level, age, or background.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>Fully Insured</h4>
+              <p>
+                Your peace of mind is our top priority, and our commitment to
+                your safety extends to every aspect of your fitness journey.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Personal Trainer</h4>
+              <p>
+                With personalized workout plans tailored to your needs, we will
+                ensure that you get the most out of your gym experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Our Services</h2>
+      <p class="section__description">
+        Discover a diverse range of exhilarating classes at our gym designed to
+        cater to all fitness levels and interests. Whether you're a seasoned
+        athlete or just starting your fitness journey, our classes offer
+        something for everyone.
+      </p>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-1.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Strength Training</h4>
+            <p>Resistance Training</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4> Nutritional Counseling</h4>
+            <p>Personalized dietary guidance</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/weight_loss.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Weight loss</h4>
+            <p> Personalized fitness, nutrition</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/trainer-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Personal Training</h4>
+            <p>Personalized plans, guidance</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="trainer">
+      <h2 class="section__header">Our Trainer</h2>
+      <p class="section__description">
+        Our trainer are more than just experts in exercise; they are passionate
+        about helping you achieve your health and fitness goals. Our trainer
+        are equipped to tailor workout programs to meet your unique needs.
+      </p>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/Trainer-4.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Komma Rajasekhar reddy</h4>
+            <h5>Strength and Conditioning</h5>
+            <hr />
+            <p>
+              With a background in competitive sports, he's dedicated to helping
+              you reach your peak physical performance.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card hide">
+          <img src="assets/trainer-5.jpg" alt="trainer" class="trainer-img"/>
+        </div>
+        
+        
+        
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Our Plans</h2>
+      <p class="section__description">
+        Our plan comes with various membership tiers, each tailored to
+        cater to different preferences and fitness aspirations.
+      </p>
+    <div class="pricee">
+      <div class="wrapper">
+        <input type="radio" name="tab" id="tab1" checked />
+        <input type="radio" name="tab" id="tab2" />
+        <input type="radio" name="tab" id="tab3" />
+        <header>
+          <label for="tab1" class="tab1">Normal</label>
+          <label for="tab2" class="tab2">Personal</label>
+          <label for="tab3" class="tab3">Offers</label>
+          <div class="slider"></div>
+        </header>
+  
+        <div class="content">
+          <div class="cards">
+            <div class="card card1">
+              <div class="price-details">
+                <span class="price">2000</span>
+              </div>
+                <div class="price-details">
+                  <span class="price3">4000</span>
+                </div>
+                  <div class="price-details">
+                    <span class="price6">6000</span>
+                  </div>
+                    <div class="price-details">
+                      <span class="priceyr">9000</span>
+                      
+                          
+              </div>
+                    
+                 
+           
+             
+  
+             
+  
+              <a href="#contact" class="btn">Join Today</a>
+
+            </div>
+            <div class="card">
+             
+              <div class="price-details">
+                <span class="price">5000</span>
+              </div>
+                <div class="price-details">
+                  <span class="price3">12000</span>
+                </div>
+                  <div class="price-details">
+                    <span class="price6">21000</span>
+                  </div>
+                    <div class="price-details">
+                      <span class="priceyr">36000</span>
+                      
+                          
+              </div>
+                    
+             
+              <a href="#contact" class="btn">Join Today</a>
+
+            </div>
+            <div class="card">
+              <div class="price-details">
+                <p>Join 1 year plan in Normal get 2 months free</p>
+                
+                
+                    
+        </div>
+            
+        <a href="#contact" class="btn">Join Today</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     </div>
+    </section>
+    
+    
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Our Workout Studio</h2>
+      
+      <div class="detailed-view-card-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/space-2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets\space-6.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets\space5.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets\space3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="assets\space1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+       
+    </div>
+    </section>
+
+    <section class="section__container contact_us" id="contact">
+      <h2 class="section__header">Contact us</h2>
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-dbb4ae96-6811-4679-bc6b-753d38cd033a" data-elfsight-app-lazy></div>
+     <div class="contact-info">
+       <div>
+         <span><i class="fas fa-mobile-alt"></i></span>
+         <span>Phone No.</span>
+         <span class="text">7075127037</span>
+       </div>
+       <div>
+         <span><i class="fab fa-instagram"></i></span>
+         <span>Instagram</span>
+         <span class="text">@thefitnessstudioguntur</span>
+       </div>
+       <div>
+         <span><i class="fas fa-map-marker-alt"></i></span>
+         <span>Address</span>
+         <span class="text">2nd, Ring Rd, Nalanda Nagar, Guntur, Andhra Pradesh 522006</span>
+       </div>
+       <div class="open">
+         <span><i class="fas fa-clock"></i></span>
+         <span>Opening Hours</span>
+         <span class="text">Monday - Saturday </br>Mrng(5:30 AM to 12:00 PM)</br>Evng(4:30 PM to 9:30PM)</br> <span class="Note">Sunday only Morning</span></span>
+       </div>
+     </div>
+   </section>
+   <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Fitness Studio. All rights reserved. </p>
+      <!-- Add any additional footer content or links here -->
+    </div>   
+    
+
+   
+
+   
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
